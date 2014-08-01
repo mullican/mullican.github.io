@@ -1,2 +1,0 @@
-mullican.github.io
-==================
