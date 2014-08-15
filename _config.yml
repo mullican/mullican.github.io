@@ -1,0 +1,12 @@
+# Site settings
+title: Lyle Mullican
+email: lyle@lylemullican.com
+description: > 
+  A work in progress
+baseurl: ""
+url: "http://lylemullican.com"
+twitter_username: mullican
+github_username:  mullican
+
+# Build settings
+markdown: kramdown
