@@ -2,11 +2,12 @@
 title: Lyle Mullican
 email: lyle@lylemullican.com
 description: > 
-  A work in progress
+  Rubyist, User Advocate, Visual Artist, Writer
 baseurl: ""
 url: "http://lylemullican.com"
 twitter_username: mullican
 github_username:  mullican
+linkedin_username:  mullican
 
 # Build settings
 markdown: kramdown
