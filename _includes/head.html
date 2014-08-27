@@ -11,4 +11,8 @@
   <link href='//fonts.googleapis.com/css?family=Roboto:400,700,400italic' rel='stylesheet' type='text/css'>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  
+  {% if page.include_leastjs %}
+    <link href="/least/css/least.min.css" rel="stylesheet" />
+  {% endif %}
 </head>
