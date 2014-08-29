@@ -10,3 +10,30 @@
 .overview a {
   font-weight: bold;
 }
+
+.gallery {
+  list-style: none;
+  @extend %clearfix;
+}
+
+.gallery li {
+  float: left;
+  margin: 0 10px 10px 0;
+  border: 2px solid $grey-color-light;
+  padding: 10px;
+  text-align: center;
+  font-size: .8em;
+}
+
+.gallery li a img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.gallery li a em {
+  display: block;
+}
+
+p a:hover {
+  border-bottom: 4px solid $brand-color-light; 
+}
