@@ -34,6 +34,10 @@
   display: block;
 }
 
+.gallery li.clear {
+  clear: left;
+}
+
 p a:hover {
   border-bottom: 4px solid $brand-color-light; 
 }
